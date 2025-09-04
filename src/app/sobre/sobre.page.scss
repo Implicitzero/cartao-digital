@@ -21,21 +21,10 @@
   }
 }
 
-// Tema escuro 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --card-background: #1e1e1e;
-    --card-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    --card-shadow-hover: 0 8px 20px rgba(0,0,0,0.3);
-    --text-color: #f1f1f1;
-    --subtle-border-color: rgba(255, 255, 255, 0.1);
-    --header-border-color: #2a2a2a;
-  }
-}
 
-// Estilos base
+
 ion-content {
-  //  gradiente 
+ 
   --background: linear-gradient(to bottom, var(--ion-background-color, #f4f5f8), var(--ion-color-step-50, #f8f9fc));
 }
 

@@ -2,9 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
 import { RouterModule } from '@angular/router';
-import { addIcons } from 'ionicons';
-import { arrowForwardCircle, schoolOutline } from 'ionicons/icons';
-
 @Component({
   selector: 'app-sobre',
   templateUrl: './sobre.page.html',
