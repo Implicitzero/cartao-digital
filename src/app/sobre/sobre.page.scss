@@ -35,15 +35,15 @@
 
 // Estilos base
 ion-content {
-  //  gradiente sutil para mais profundidade
+  //  gradiente 
   --background: linear-gradient(to bottom, var(--ion-background-color, #f4f5f8), var(--ion-color-step-50, #f8f9fc));
 }
 
-// Cabeçalho refinado
+// Cabeçalho 
 ion-toolbar {
   --background: var(--ion-background-color);
   --border-width: 0px; // Remove a borda padrão
-  //  Borda inferior sutil para separar do conteúdo
+  //  Borda inferior 
   border-bottom: 1px solid var(--header-border-color);
   
   ion-title {
@@ -56,7 +56,7 @@ ion-back-button {
   color: black;
 }
 
-// Animação de entrada mais elegante (Fade + Sobe)
+// Animação de entrada 
 @keyframes fadeInUp {
   from {
     opacity: 0;
@@ -68,7 +68,7 @@ ion-back-button {
   }
 }
 
-// Estilo dos Cards de Seção
+//Cards de Seção
 .about-section {
   background: var(--card-background);
   color: var(--text-color);
@@ -77,7 +77,7 @@ ion-back-button {
   box-shadow: var(--card-shadow);
   transition: transform 0.3s cubic-bezier(0.25, 0.8, 0.25, 1), box-shadow 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   animation: fadeInUp 0.6s ease-out forwards;
-  opacity: 0; // Começa invisível para a animação funcionar
+  opacity: 0; 
 
   &:hover {
     transform: translateY(-5px);
@@ -107,13 +107,13 @@ ion-back-button {
     line-height: 1.7;
   }
 
-  // visual "Glassmorphism" sutil
+
   ion-chip {
     background: rgba(var(--ion-color-primary-rgb), 0.9);
     color: white;
     font-weight: 500;
     border-radius: 10px;
-    // Borda sutil para efeito de vidro
+    
     border: 1px solid rgba(255, 255, 255, 0.2);
     backdrop-filter: blur(10px);
     transition: transform 0.2s ease;
@@ -127,7 +127,7 @@ ion-back-button {
     }
   }
 
-  // Animação escalonada para os cards
+  
   &:nth-child(1) { animation-delay: 0.1s; }
   &:nth-child(2) { animation-delay: 0.2s; }
   &:nth-child(3) { animation-delay: 0.3s; }
